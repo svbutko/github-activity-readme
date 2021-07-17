@@ -140,7 +140,7 @@ Toolkit.run(
     );
 
     if (!content.length) {
-      tools.exit.failure("No PullRequest/Issue/IssueComment events found");
+      tools.exit.success("No PullRequest/Issue/IssueComment events found");
     }
 
     if (content.length < 5) {
